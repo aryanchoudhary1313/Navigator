@@ -64,7 +64,7 @@ body
     transition: 0.5s;
     color: var(--clr);
 }
-.navigator ul li.active a .icon
+.navigator ul li:hover a .icon
 {
     transform: translateY(-32px);
 }
@@ -79,7 +79,7 @@ body
     opacity: 0;
     transform: translateY(20px);
 }
-.navigator ul li.active a .text
+.navigator ul li:hover a .text
 {
   opacity: 1;
   transform: translateY(10px);
@@ -119,23 +119,23 @@ body
    border-top-left-radius: 20px;
    box-shadow: -1px -10px 0 0 var(--clr);
 }
-.navigator ul li:nth-child(1).active ~ .indicator
+.navigator ul li:nth-child(1):hover ~ .indicator
 {
     transform: translateX(calc(70px * 0));
 }
-.navigator ul li:nth-child(2).active ~ .indicator
+.navigator ul li:nth-child(2):hover ~ .indicator
 {
     transform: translateX(calc(70px * 1));
 }
-.navigator ul li:nth-child(3).active ~ .indicator
+.navigator ul li:nth-child(3):hover ~ .indicator
 {
     transform: translateX(calc(70px * 2));
 }
-.navigator ul li:nth-child(4).active ~ .indicator
+.navigator ul li:nth-child(4):hover ~ .indicator
 {
     transform: translateX(calc(70px * 3));
 }
-.navigator ul li:nth-child(5).active ~ .indicator
+.navigator ul li:nth-child(5):hover ~ .indicator
 {
     transform: translateX(calc(70px * 4));
 }
