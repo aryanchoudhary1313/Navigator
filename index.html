@@ -7,7 +7,7 @@
 <body>
     <div class="navigator">
         <ul>
-            <li class="list active">
+            <li class="list">
                 <a href="#">
                     <span class="icon">
                         <ion-icon name="home-outline"></ion-icon>
@@ -50,16 +50,6 @@
             <div class="indicator"></div>
         </ul>
     </div>
-    <script>
-        const list = document.querySelectorAll('.list');
-        function activeLink(){
-            list.forEach((item) =>
-            item.classList.remove('hover'));
-            this.classList.add('hover');
-        }
-        list.forEach((item) =>
-        item.addEventListener('click' , activeLink));
-    </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
